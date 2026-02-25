@@ -2,7 +2,7 @@
 
 ## Présentation
 
-**AppWebGestionEscalesNavire** est une application web développée dans le cadre d’un stage professionnel au Port Autonome de Dakar (PAD). Elle vise à moderniser la gestion des escales de navires, des Bons de Pilotage et de la facturation portuaire. Ce projet s’inscrit dans la transformation digitale du secteur portuaire sénégalais et a pour but d’améliorer la fiabilité, la rapidité et la traçabilité des opérations portuaires.
+**AppWebGestionEscalesNavire** est une application web développée dans le cadre d’un projet professionnel pour le Port Autonome de Dakar (PAD). Elle vise à moderniser la gestion des escales de navires, des Bons de Pilotage et de la facturation portuaire. Ce projet s’inscrit dans la transformation digitale du secteur portuaire sénégalais et a pour but d’améliorer la fiabilité, la rapidité et la traçabilité des opérations portuaires.
 
 ## Fonctionnalités
 - **Gestion des navires** : Ajout, modification, suppression, consultation des navires, armateurs et consignataires.
@@ -25,7 +25,7 @@ L’application est organisée en plusieurs couches : modèle (entities), DAO (a
 ## Installation
 1. **Cloner le dépôt** :
    ```bash
-   git clone https://github.com/MariemeKmr/AppWebGestionEscalesNavire.git
+   git clone https://github.com/massalyjr9/gestion-escales-navires/AppWebGestionEscalesNavire.git
    ```
 
 2. **Configurer la base de données**  
@@ -47,7 +47,7 @@ L’application est organisée en plusieurs couches : modèle (entities), DAO (a
 
 
 ## Remerciements
-Merci au Port Autonome de Dakar, à la Direction Digitale, aux encadrants académiques et professionnels, ainsi qu’à toutes les personnes ayant permis la réalisation de ce stage et de ce projet.
+Merci au Port Autonome de Dakar, à la Direction Digitale, aux encadrants académiques et professionnels, ainsi qu’à toutes les personnes ayant permis la réalisation de ce projet.
 
 ## Mots-clés
 gestion portuaire, escale de navire, application web, Java EE, MariaDB, facturation, automatisation, transformation digitale, Port Autonome de Dakar
