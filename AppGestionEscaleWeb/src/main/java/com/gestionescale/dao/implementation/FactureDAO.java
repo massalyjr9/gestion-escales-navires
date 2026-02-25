@@ -12,7 +12,7 @@ import java.util.*;
  * DAO pour la gestion des factures dans l'application d'escales de navires.
  * Cette classe centralise toutes les opérations CRUD et les statistiques
  * liées aux factures (ajout, suppression, modification, recherche, calculs de recettes).
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class FactureDAO {
 

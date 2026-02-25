@@ -15,7 +15,7 @@ import jakarta.servlet.http.HttpServletResponse;
  * Servlet de gestion des notifications d'escales.
  * Cette servlet prépare les listes d'escales arrivant ou partant cette semaine
  * ainsi que les escales terminées non facturées, pour affichage sur la page de notifications.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class NotificationServlet extends HttpServlet {
     private EscaleService escaleService = new EscaleService();

@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Servlet de gestion de l'historique.
  * Cette servlet permet d'afficher la liste des historiques avec ou sans filtre de recherche.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 @WebServlet("/historique")
 public class HistoriqueServlet extends HttpServlet {

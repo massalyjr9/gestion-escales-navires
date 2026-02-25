@@ -15,7 +15,7 @@ import java.util.List;
  * en encapsulant la logique de gestion des armateurs et de leurs navires.
  * On y trouve les opérations principales : ajout, modification, suppression, consultation,
  * ainsi que la récupération des navires appartenant à un armateur donné.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class ArmateurService implements IArmateurService {
     // DAO pour l'accès aux données des armateurs

@@ -13,7 +13,7 @@ import java.util.List;
  * Cette classe permet d'ajouter, modifier, supprimer et lister les différents types de mouvements
  * (exemple : entrée, sortie, déplacement...) utilisés lors des opérations portuaires.
  * Toutes les opérations sont réalisées sur la table 'typemouvement'.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class TypeMouvementDAO implements ITypeMouvementDAO {
 

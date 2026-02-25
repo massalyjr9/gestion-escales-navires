@@ -16,7 +16,7 @@ import java.sql.Timestamp;
  * DAO pour la gestion de l'historique des opérations.
  * Cette classe permet d'ajouter des entrées d'historique et d'effectuer des recherches
  * pour garder une trace de toutes les actions réalisées dans l'application.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class HistoriqueDAO {
 

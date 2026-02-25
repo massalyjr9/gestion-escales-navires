@@ -4,7 +4,7 @@ package com.gestionescale.util;
  * Utilitaire de gestion du contexte utilisateur courant via ThreadLocal.
  * Permet de stocker et récupérer l'email de l'utilisateur en cours,
  * pour les opérations nécessitant une traçabilité ou un contexte d'audit.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class UtilisateurContext {
     // Stocke l'email utilisateur dans le contexte du thread courant

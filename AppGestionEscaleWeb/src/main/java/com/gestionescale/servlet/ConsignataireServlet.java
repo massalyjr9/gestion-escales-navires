@@ -15,7 +15,7 @@ import com.gestionescale.model.Navire;
  * Servlet de gestion des consignataires.
  * Cette servlet permet l'ajout, la modification, la consultation (liste & détails)
  * des consignataires ainsi que l'affichage des navires associés à un consignataire.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class ConsignataireServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;

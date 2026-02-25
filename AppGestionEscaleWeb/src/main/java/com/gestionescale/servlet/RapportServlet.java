@@ -21,7 +21,7 @@ import com.gestionescale.model.RecetteParPeriode;
  * Cette servlet génère les données pour le tableau de bord analytique :
  * statistiques sur les escales, navires, chiffre d'affaires, factures, recettes, répartition par navire ou consignataire, etc.
  * Les données sont transmises à la vue /jsp/rapport.jsp pour affichage graphique et synthétique.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 @WebServlet("/rapport")
 public class RapportServlet extends HttpServlet {

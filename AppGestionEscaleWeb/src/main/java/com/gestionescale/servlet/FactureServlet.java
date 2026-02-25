@@ -17,7 +17,7 @@ import java.util.*;
  * Servlet de gestion des factures.
  * Cette servlet permet la génération, la modification, la suppression, la consultation (liste, vue, recherche)
  * des factures liées à une escale, en respectant les règles métier sur la validation des bons de pilotage.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 @WebServlet("/facture")
 public class FactureServlet extends HttpServlet {

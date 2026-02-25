@@ -17,7 +17,7 @@ import com.gestionescale.service.interfaces.IArmateurService;
  * Cette servlet permet l'ajout, la modification, la suppression,
  * la consultation (liste & détails) des armateurs ainsi que la consultation
  * des navires d'un armateur via la couche service.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 @WebServlet("/armateur")
 public class ArmateurServlet extends HttpServlet {

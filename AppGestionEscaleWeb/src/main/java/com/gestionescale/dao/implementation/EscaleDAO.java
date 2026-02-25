@@ -14,7 +14,7 @@ import java.util.List;
  * DAO pour la gestion des Escales.
  * Toutes les opérations CRUD et requêtes SQL complexes liées à l'entité Escale passent par cette classe.
  * J'ai aussi centralisé ici les méthodes utiles aux statistiques et à la logique de gestion portuaire.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class EscaleDAO implements IEscaleDAO {
 

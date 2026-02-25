@@ -7,7 +7,7 @@ import java.sql.SQLException;
 /**
  * Utilitaire de gestion de la connexion à la base de données MariaDB.
  * Fournit une méthode statique pour obtenir une connexion à la base "gestion_escales".
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class DatabaseConnection {
     private static final String URL = "jdbc:mariadb://localhost:3306/gestion_escales";

@@ -369,7 +369,7 @@ CREATE TABLE `utilisateur` (
 
 LOCK TABLES `utilisateur` WRITE;
 /*!40000 ALTER TABLE `utilisateur` DISABLE KEYS */;
-INSERT INTO `utilisateur` VALUES (1,'admin@gestionescale.com','admin','admin','Marieme Kamara','77067890'),(2,'agent@gestionescale.com','agent123','agent_portuaire','Agent Portuaire','771111111'),(5,'facturation@gestionescale.com','facture123','agent_facturation','Agent de Facturation','772222222'),(9,'test@test.com','test','admin','test','7777'),(10,'test1@test.com','test','agent_portuaire','test1','777'),(11,'test3@test.com','test','agent_facturation','test2','999');
+INSERT INTO `utilisateur` VALUES (1,'admin@gestionescale.com','admin','admin','Idrissa Massaly','77067890'),(2,'agent@gestionescale.com','agent123','agent_portuaire','Agent Portuaire','771111111'),(5,'facturation@gestionescale.com','facture123','agent_facturation','Agent de Facturation','772222222'),(9,'test@test.com','test','admin','test','7777'),(10,'test1@test.com','test','agent_portuaire','test1','777'),(11,'test3@test.com','test','agent_facturation','test2','999');
 /*!40000 ALTER TABLE `utilisateur` ENABLE KEYS */;
 UNLOCK TABLES;
 

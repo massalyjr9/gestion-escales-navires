@@ -16,7 +16,7 @@ import jakarta.servlet.http.HttpSession;
  * Servlet de gestion des utilisateurs.
  * Permet l'ajout, la modification, la suppression, la consultation (liste, détails, profil)
  * des utilisateurs. Permet aussi la gestion du profil de l'utilisateur connecté (modification email, téléphone, mot de passe).
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class UtilisateurServlet extends HttpServlet {
     private UtilisateurService service = new UtilisateurService();

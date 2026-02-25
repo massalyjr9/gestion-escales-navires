@@ -19,7 +19,7 @@
     </div>
 
     <div class="footer">
-        <p>&copy; 2025 Gestion Escale, Marieme KAMARA. Tous droits réservés.</p>
+        <p>&copy; 2025 Gestion Escale, Idrissa Massaly. Tous droits réservés.</p>
     </div>
 </body>
 </html>

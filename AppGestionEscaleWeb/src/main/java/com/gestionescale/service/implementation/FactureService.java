@@ -10,7 +10,7 @@ import java.util.*;
  * Cette classe regroupe la logique principale pour la génération, la modification,
  * la consultation et la suppression des factures ainsi que la gestion des escales
  * et des bons de pilotage associés à une facture.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class FactureService {
     private FactureDAO factureDAO = new FactureDAO();

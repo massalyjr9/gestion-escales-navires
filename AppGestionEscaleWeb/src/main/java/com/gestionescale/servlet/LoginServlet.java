@@ -13,7 +13,7 @@ import java.io.IOException;
 /**
  * Servlet de gestion de l'authentification (login).
  * Cette servlet permet à l'utilisateur de se connecter à l'application en vérifiant ses identifiants.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class LoginServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;

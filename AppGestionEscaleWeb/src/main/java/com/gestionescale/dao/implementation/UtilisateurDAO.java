@@ -12,7 +12,7 @@ import java.util.List;
  * DAO pour la gestion des utilisateurs dans l'application de gestion des escales de navires.
  * Cette classe permet de gérer l'ensemble des opérations CRUD sur les utilisateurs :
  * ajout, modification, suppression, recherche, authentification, etc.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class UtilisateurDAO implements IUtilisateurDAO {
 

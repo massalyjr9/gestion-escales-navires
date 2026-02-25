@@ -15,7 +15,7 @@ import java.util.List;
  * Cette classe permet d'effectuer toutes les opérations CRUD (ajout, modification, suppression, consultation)
  * ainsi que diverses recherches et filtrages sur les navires.
  * Elle gère également la pagination et les requêtes spécifiques liées aux escales.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class NavireDAO implements INavireDAO {
 

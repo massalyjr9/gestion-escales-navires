@@ -12,7 +12,7 @@ import java.io.IOException;
 /**
  * Servlet de gestion de la déconnexion (logout).
  * Cette servlet permet de terminer la session utilisateur et de rediriger vers la page de connexion.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class LogoutServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;

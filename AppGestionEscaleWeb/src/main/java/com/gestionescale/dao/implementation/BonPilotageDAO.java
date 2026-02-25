@@ -16,7 +16,7 @@ import java.util.List;
  * DAO pour la gestion des Bons de Pilotage.
  * Toutes les opérations CRUD pour l'entité BonPilotage passent par cette classe.
  * J'ai aussi ajouté des méthodes de recherche multi-critère et des vérifications utiles pour la logique métier.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class BonPilotageDAO implements IBonPilotageDAO {
 

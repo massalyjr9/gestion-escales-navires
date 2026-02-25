@@ -13,7 +13,7 @@ import java.util.List;
  * Cette classe fait l'interface entre la couche présentation/contrôleur et le DAO,
  * encapsulant la logique métier liée aux navires : création, modification, suppression,
  * recherche et récupération de la liste de tous les navires.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class NavireService implements INavireService {
 

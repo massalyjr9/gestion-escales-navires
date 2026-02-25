@@ -12,7 +12,7 @@ import java.util.List;
  * en s'appuyant sur le DAO pour manipuler les données.
  * On y retrouve les opérations CRUD, les recherches, ainsi que les règles
  * métier spécifiques sur l'état des bons pour la validation ou la facturation.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class BonPilotageService {
     // DAO responsable des opérations d'accès aux données des bons de pilotage

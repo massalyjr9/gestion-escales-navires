@@ -18,7 +18,7 @@ import java.util.List;
  * Cette servlet permet l'ajout, la modification, la suppression,
  * la consultation (liste & détails) des escales via la couche DAO.
  * Elle applique aussi des règles métier sur les dates et la cohérence des données.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class EscaleServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;

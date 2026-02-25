@@ -15,7 +15,7 @@ import java.util.List;
  * Cette classe fait l'interface entre la couche présentation/contrôleur et le DAO,
  * en encapsulant la logique métier liée aux escales de navires : création, modification,
  * suppression, recherche et filtrage avancé (ex : escales à venir, terminées, etc.).
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class EscaleService implements IEscaleService {
 

@@ -20,7 +20,7 @@ import jakarta.servlet.http.HttpServletResponse;
  * Permet l'ajout, la modification, la suppression, la consultation (liste, détails)
  * des navires. Prend en charge la sélection ou la création d'armateurs/consignataires
  * lors de la gestion des navires.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class NavireServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;

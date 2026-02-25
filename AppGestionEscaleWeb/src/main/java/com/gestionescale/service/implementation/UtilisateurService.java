@@ -12,7 +12,7 @@ import java.util.List;
  * Cette classe fait le lien entre la couche présentation/contrôleur et le DAO,
  * encapsulant la logique métier liée aux utilisateurs : création, modification,
  * suppression, recherche, gestion des coordonnées et du mot de passe.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class UtilisateurService implements IUtilisateurService {
 

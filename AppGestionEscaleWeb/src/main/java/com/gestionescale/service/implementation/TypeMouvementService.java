@@ -13,7 +13,7 @@ import java.util.List;
  * Cette classe est l'interface entre la couche présentation/contrôleur et le DAO,
  * encapsulant toute la logique liée à l'ajout, la modification, la suppression
  * et la récupération des types de mouvement (entrée, sortie, déplacement, etc.).
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class TypeMouvementService implements ITypeMouvementService {
 

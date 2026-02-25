@@ -14,12 +14,12 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
-                <h3>À propos</h3>
-                <p>Gestion des escales portuaires pour une logistique maritime optimisée.</p>
+                <h3>ï¿½ propos</h3>
+                <p>Gestion des escales portuaires pour une logistique maritime optimisï¿½e.</p>
             </div>
             <div class="footer-section">
                 <h3>Contact</h3>
-                <p><i class="fas fa-map-marker-alt"></i> Dakar, Sénégal</p>
+                <p><i class="fas fa-map-marker-alt"></i> Dakar, Sï¿½nï¿½gal</p>
 <!--                 <p><i class="fas fa-phone"></i> +221 77 609 29 90</p>-->
                 <p><i class="fas fa-envelope"></i> contact@gestionescales.com</p>
             </div>
@@ -34,7 +34,7 @@
             </div>
         </div>
         <div class="copyright">
-            <p>&copy; 2025 Marieme KAMARA - Gestion des Escales. Tous droits réservés.</p>
+            <p>&copy; 2025 Idrissa Massaly - Gestion des Escales. Tous droits rï¿½servï¿½s.</p>
         </div>
     </footer>
 </body>

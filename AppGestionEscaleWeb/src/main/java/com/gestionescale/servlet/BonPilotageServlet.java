@@ -18,7 +18,7 @@ import java.util.List;
  * Cette servlet permet l'ajout, la modification, la suppression,
  * la consultation (liste & détails) des bons de pilotage via la couche service.
  * Elle applique aussi les règles métier liées à l'enchaînement des bons d'entrée/sortie.
- * (c) Marieme KAMARA
+ * (c) Idrissa Massaly
  */
 public class BonPilotageServlet extends HttpServlet {
     // Service de gestion des bons de pilotage
