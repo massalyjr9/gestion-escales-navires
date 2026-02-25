@@ -1,0 +1,240 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.content-container {
+    margin-top: 80px;
+    max-width: 1200px;
+    min-width: 0;
+    margin: 80px auto 20px auto;
+    padding: 32px 16px 26px 16px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 28px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    font-size: 1rem;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background: #fff;
+    transition: border-color 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Bloc consignataire actuel */
+#currentConsignataire {
+    background-color: #e3f2fd;
+    border: 1px solid #90caf9;
+    border-radius: 6px;
+    padding: 14px 14px 14px 18px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#currentConsignataire span {
+    font-weight: 500;
+    color: #1565c0;
+}
+#currentConsignataire .btn-link {
+    color: #1565c0;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 18px;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+#currentConsignataire .btn-link:hover {
+    color: #0d47a1;
+    text-decoration: none;
+}
+
+/* Consignataire Recherche/Ajout Zone */
+.consignataire-actions {
+    margin: 10px 0 18px 0;
+    display: flex;
+    gap: 10px;
+}
+#searchConsignataireDiv, #addConsignataireDiv {
+    background: #f6fbff;
+    border: 1px solid #bbe1fa;
+    border-radius: 5px;
+    padding: 14px 18px 14px 18px;
+    margin-bottom: 18px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#consignataireSelect {
+    min-height: 120px;
+    font-size: 15px;
+    width: 100%;
+}
+
+/* Button Styles */
+button[type="submit"],
+.btn-new,
+.btn-back,
+.btn.btn-primary,
+.btn.btn-secondary {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 1px 3px rgba(52,152,219,0.08);
+    width: auto;
+}
+.btn.btn-secondary {
+    background-color: #6c757d;
+}
+.btn.btn-primary:hover,
+button[type="submit"]:hover,
+.btn-new:hover,
+.btn-back:hover {
+    background-color: #2980b9;
+}
+.btn.btn-secondary:hover {
+    background-color: #495057;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.09);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Link Styles */
+.actions a {
+    margin-right: 10px;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.actions a:hover {
+    color: #2980b9;
+}
+
+/* ...autres styles... */
+
+/* Toggle bouton Consignataire Présent/Absent */
+.toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    background: #f6f6f6;
+    border-radius: 2em;
+    border: 2px solid #bfc9d1;
+    padding: .4em 1em;
+    cursor: pointer;
+    font-size: 1.15em;
+    transition: border-color .2s, background .2s;
+    user-select: none;
+    outline: none;
+}
+.toggle-btn.present {
+    border-color: #1ec98f;
+    background: #eafff4;
+    color: #106a4e;
+}
+.toggle-btn.absent {
+    border-color: #e04d52;
+    background: #fff5f5;
+    color: #a22b34;
+}
+.toggle-btn:focus-visible {
+    box-shadow: 0 0 0 2px #1765a0;
+}
+.toggle-btn .toggle-label {
+    font-weight: bold;
+    margin-right: 0.5em;
+    letter-spacing: 0.02em;
+}
+
+.bg-light-rouge {
+    background: #ffeaea;
+    color: #c0392b !important;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-style: italic;
+}
+
+.content-container, table {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: #fff;
+}
+.pagination .page-link {
+    color: #3498db;
+}
