@@ -1,0 +1,18 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Java / Eclipse / build
+target/
+build/
+bin/
+out/
+*.class
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
