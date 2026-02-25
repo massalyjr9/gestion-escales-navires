@@ -25,7 +25,7 @@ L’application est organisée en plusieurs couches : modèle (entities), DAO (a
 ## Installation
 1. **Cloner le dépôt** :
    ```bash
-   git clone https://github.com/massalyjr9/gestion-escales-navires/AppWebGestionEscalesNavire.git
+   git clone https://github.com/massalyjr9/gestion-escales-navires.git
    ```
 
 2. **Configurer la base de données**  
