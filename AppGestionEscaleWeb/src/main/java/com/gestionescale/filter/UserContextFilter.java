@@ -17,7 +17,7 @@ public class UserContextFilter implements Filter {
                 HttpServletRequest httpRequest = (HttpServletRequest) request;
                 HttpSession session = httpRequest.getSession(false);
                 if (session != null) {
-                    // Adapte selon ta gestion de session (userMail ou l'objet Utilisateur)
+                    // utilisation de userMail la gestion de session 
                     Object userMailObj = session.getAttribute("userMail");
                     if (userMailObj != null) {
                         UtilisateurContext.setMail(userMailObj.toString());
